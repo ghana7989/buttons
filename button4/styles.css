@@ -1,0 +1,25 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  color: #216583;
+  text-decoration:none;
+  padding: 40px 80px;
+font-family: 'Roboto', sans-serif;
+border: 3px solid #216583;
+text-transform: uppercase;
+font-size: 3rem;
+font-weight: 400;
+letter-spacing: -2px;
+transition: all 0.5s;
+}
+
+a:hover{
+  font-weight: 800;
+  letter-spacing: 10px;
+  border: 8px solid #216583;
+}
